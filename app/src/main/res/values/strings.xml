@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MultiplyItEasy</string>
+    <string name="start">Start</string>
+    <string name="back">Back</string>
+    <string name="multiplicand">Multiplicand:</string>
+    <string name="multiplicand2">Multiplicand 2</string>
+    <string name="ch_multiplicand">Choose Multiplicand:</string>
+    <string name="i_remember">I Remember!</string>
+    <string name="ok">OK!</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="good_job">Good Job!</string>
+    <string name="you_know">After all, you know the multiplication table by 2, but what about the other multiplier?</string>
+    <string name="quest"> "?" </string>
+    <string name="not_complete"> "The quest not completed! Do you really want to quit?" </string>
+</resources>

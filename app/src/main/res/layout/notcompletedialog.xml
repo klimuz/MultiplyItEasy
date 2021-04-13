@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/notCompleted"
+    android:background="@color/red"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:layout_marginTop="100dp"
+    android:layout_marginBottom="100dp">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="41dp"
+        android:text="@string/not_complete"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="2"
+            android:background="@drawable/button_stroke_black95_press_white"
+            android:onClick="onClickNotCompl"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/yes"
+            android:textColor="@color/white"
+
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="2"
+            android:background="@drawable/button_stroke_black95_press_white"
+            android:onClick="onClickNotCompl"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/no"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
