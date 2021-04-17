@@ -2,14 +2,11 @@ package ru.koder71.multiplyiteasy;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.Random;
 
 public class Brain {
-
-
+    public int count = 0;
     int x;
-
     public Brain(int x) {
         this.x = x;
     }
@@ -22,6 +19,8 @@ public class Brain {
 
     int multiPlyer() {
         rez = x * numb.get(r);
+
+
         return rez;
     }
 }

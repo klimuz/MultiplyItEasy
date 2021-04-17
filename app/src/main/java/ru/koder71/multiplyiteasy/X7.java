@@ -4,20 +4,18 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class X2 extends AppCompatActivity {
-    Brain brain = new Brain(2);
+public class X7 extends AppCompatActivity {
+    Brain brain = new Brain(7);
 
     Dialog table2;
     Dialog goodJob;
@@ -41,7 +39,7 @@ public class X2 extends AppCompatActivity {
         congratulation.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         congratulation.setCancelable(false);
         TextView know = congratulation.findViewById(R.id.textView11);
-        know.setText(R.string.you_know_2);
+        know.setText(R.string.you_know_7);
 
 
         //dialog window
@@ -51,7 +49,7 @@ public class X2 extends AppCompatActivity {
         table2.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         table2.setCancelable(false);//button back off
         ImageView previewimg = (ImageView) table2.findViewById(R.id.imageView2);
-        previewimg.setImageResource(R.drawable.mult_table2);
+        previewimg.setImageResource(R.drawable.mult_table7);
 
         TextView res = findViewById(R.id.res);
         //I remember button start
@@ -120,7 +118,7 @@ public class X2 extends AppCompatActivity {
             public void onClick(View v) {
                 try {
 
-                    Intent intent = new Intent(X2.this, GameLevels.class);
+                    Intent intent = new Intent(X7.this, GameLevels.class);
                     startActivity(intent);
                     finish();
                     //return back to choose multiplicand end
@@ -148,7 +146,7 @@ public class X2 extends AppCompatActivity {
                 } else {
                     try {
                         //return back to choose multiplicand start
-                        Intent intent = new Intent(X2.this, GameLevels.class);
+                        Intent intent = new Intent(X7.this, GameLevels.class);
                         startActivity(intent);
                         finish();
                         //return back to choose multiplicand end
@@ -165,7 +163,7 @@ public class X2 extends AppCompatActivity {
             case R.id.buttonYes:
                 try {
                     //return back to choose multiplicand start
-                    Intent intent = new Intent(X2.this, GameLevels.class);
+                    Intent intent = new Intent(X7.this, GameLevels.class);
                     startActivity(intent);
                     finish();
                     //return back to choose multiplicand end
@@ -249,7 +247,7 @@ public class X2 extends AppCompatActivity {
         //button back reaction start
         try {
             //return back to choose multiplicand start
-            Intent intent = new Intent(X2.this, GameLevels.class);
+            Intent intent = new Intent(X7.this, GameLevels.class);
             startActivity(intent);
             finish();
             //return back to choose multiplicand end

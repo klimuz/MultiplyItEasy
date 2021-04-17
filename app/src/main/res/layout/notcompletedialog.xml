@@ -42,6 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
+            android:layout_marginRight="20dp"
             android:layout_weight="2"
             android:background="@drawable/button_stroke_black95_press_white"
             android:onClick="onClickNotCompl"

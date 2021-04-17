@@ -38,25 +38,34 @@
                     android:id="@+id/button_back2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_stroke_white_press_blue"
-                    android:layout_marginEnd="10dp"
-                    android:text="@string/back"
-                    android:textSize="24sp"
+                    android:background="@drawable/button_stroke_black95_press_white"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
+                    android:text="@string/back"
                     android:textAllCaps="false"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/black95"
+                    android:textSize="24sp" />
 
 
                 <TextView
                     android:id="@+id/text_multiplicand"
-                    android:layout_width="0dp"
+                    android:layout_width="285dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
                     android:padding="10dp"
                     android:text="@string/multiplicand"
-                    android:textColor="@color/white"
+                    android:textColor="@color/red"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/text_multnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:gravity="end"
+                    android:padding="10dp"
+                    android:textColor="@color/red"
                     android:textSize="24sp" />
             </LinearLayout>
 
@@ -141,19 +150,19 @@
                 android:id="@+id/multi1"
                 android:layout_width="60dp"
                 android:layout_height="90dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamelevels"
                 android:gravity="center"
-                android:text="2"
+                android:text="a"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/sign_mlt"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamelevels"
                 android:gravity="center"
                 android:text="X"
@@ -165,10 +174,10 @@
                 android:id="@+id/multi2"
                 android:layout_width="60dp"
                 android:layout_height="90dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamelevels"
                 android:gravity="center"
-                android:text="@string/quest"
+                android:text="b"
                 android:textColor="@color/red"
                 android:textSize="40sp"
                 android:textStyle="bold" />
@@ -177,7 +186,7 @@
                 android:id="@+id/is"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamelevels"
                 android:gravity="center"
                 android:text="="
@@ -189,12 +198,12 @@
                 android:id="@+id/res"
                 android:layout_width="60dp"
                 android:layout_height="90dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/button_gamelevels"
                 android:gravity="center"
-                android:text="25"
+                android:text="ab"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textStyle="bold" />
 
 
@@ -213,52 +222,44 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/num2"
+                <Button
+                    android:id="@+id/digit2"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="2"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold"></TextView>
+                    android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/num3"
+                <Button
+                    android:id="@+id/digit3"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="3"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/num4"
+                <Button
+                    android:id="@+id/digit4"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="4"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/num5"
+                <Button
+                    android:id="@+id/digit5"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="5"
                     android:textColor="@color/white"
@@ -273,52 +274,44 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/num6"
+                <Button
+                    android:id="@+id/digit6"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="6"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/num7"
+                <Button
+                    android:id="@+id/digit7"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="7"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/num8"
+                <Button
+                    android:id="@+id/digit8"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="8"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/num9"
+                <Button
+                    android:id="@+id/digit9"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/button_gamelevels"
-                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
                     android:onClick="onClickNum"
                     android:text="9"
                     android:textColor="@color/white"
