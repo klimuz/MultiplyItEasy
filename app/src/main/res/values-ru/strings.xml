@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Умножать легко</string>
+    <string name="start">Начать</string>
+    <string name="back">Назад</string>
+    <string name="multiplicand">Множитель:</string>
+
+    <string name="ch_multiplicand">Выбери множитель:</string>
+    <string name="i_remember">Я помню!</string>
+    <string name="ok">OK!</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="good_job">Молодец!</string>
+    <string name="you_know_2">Оказывается,ты знаешь умножение на 2, а как на счёт других множителей?</string>
+    <string name="you_know_3">Оказывается,ты знаешь умножение на 3, а как на счёт других множителей?</string>
+    <string name="you_know_4">Оказывается,ты знаешь умножение на 4, а как на счёт других множителей?</string>
+    <string name="you_know_5">Оказывается,ты знаешь умножение на 5, а как на счёт других множителей?</string>
+    <string name="you_know_6">Оказывается,ты знаешь умножение на 6, а как на счёт других множителей?</string>
+    <string name="you_know_7">Оказывается,ты знаешь умножение на 7, а как на счёт других множителей?</string>
+    <string name="you_know_8">Оказывается,ты знаешь умножение на 8, а как на счёт других множителей?</string>
+    <string name="you_know_9">Оказывается,ты знаешь умножение на 9, а как на счёт других множителей?</string>
+    <string name="quest"> "?" </string>
+    <string name="not_complete"> "Задание не выполнено! Ты действительно хочешь выйти?" </string>
+</resources>
