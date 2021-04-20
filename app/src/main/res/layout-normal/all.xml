@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -231,7 +230,8 @@
                     android:text="2"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
 
                 <Button
                     android:id="@+id/digit3"
@@ -242,7 +242,8 @@
                     android:text="3"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
 
                 <Button
                     android:id="@+id/digit4"
@@ -253,7 +254,8 @@
                     android:text="4"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
 
                 <Button
                     android:id="@+id/digit5"
@@ -264,7 +266,8 @@
                     android:text="5"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -283,7 +286,8 @@
                     android:text="6"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
 
                 <Button
                     android:id="@+id/digit7"
@@ -294,7 +298,8 @@
                     android:text="7"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
 
                 <Button
                     android:id="@+id/digit8"
@@ -305,7 +310,8 @@
                     android:text="8"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
 
                 <Button
                     android:id="@+id/digit9"
@@ -316,7 +322,8 @@
                     android:text="9"
                     android:textColor="@color/white"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:padding="5dp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

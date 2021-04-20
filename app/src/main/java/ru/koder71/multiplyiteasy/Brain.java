@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class Brain {
-    public int count = 0;
     int x;
     public Brain(int x) {
         this.x = x;
