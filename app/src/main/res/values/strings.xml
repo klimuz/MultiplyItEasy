@@ -3,21 +3,21 @@
     <string name="start">Start</string>
     <string name="back">Back</string>
     <string name="multiplicand">Multiplicand:</string>
-    <string name="multiplicand2">Multiplicand 2</string>
+
     <string name="ch_multiplicand">Choose Multiplicand:</string>
     <string name="i_remember">I Remember!</string>
     <string name="ok">OK!</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
     <string name="good_job">Good Job!</string>
-    <string name="you_know_2">After all, you know the multiplication table by 2, but what about the other multiplier?</string>
-    <string name="you_know_3">After all, you know the multiplication table by 3, but what about the other multiplier?</string>
-    <string name="you_know_4">After all, you know the multiplication table by 4, but what about the other multiplier?</string>
-    <string name="you_know_5">After all, you know the multiplication table by 5, but what about the other multiplier?</string>
-    <string name="you_know_6">After all, you know the multiplication table by 6, but what about the other multiplier?</string>
-    <string name="you_know_7">After all, you know the multiplication table by 7, but what about the other multiplier?</string>
-    <string name="you_know_8">After all, you know the multiplication table by 8, but what about the other multiplier?</string>
-    <string name="you_know_9">After all, you know the multiplication table by 9, but what about the other multiplier?</string>
+    <string name="you_know_2">After all, you know the multiplication table by 2, but what about other multipliers?</string>
+    <string name="you_know_3">After all, you know the multiplication table by 3, but what about other multipliers?</string>
+    <string name="you_know_4">After all, you know the multiplication table by 4, but what about other multipliers?</string>
+    <string name="you_know_5">After all, you know the multiplication table by 5, but what about other multipliers?</string>
+    <string name="you_know_6">After all, you know the multiplication table by 6, but what about other multipliers?</string>
+    <string name="you_know_7">After all, you know the multiplication table by 7, but what about other multipliers?</string>
+    <string name="you_know_8">After all, you know the multiplication table by 8, but what about other multipliers?</string>
+    <string name="you_know_9">After all, you know the multiplication table by 9, but what about other multipliers?</string>
     <string name="quest"> "?" </string>
     <string name="not_complete"> "The quest not completed! Do you really want to quit?" </string>
 </resources>

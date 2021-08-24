@@ -172,7 +172,7 @@ public class X6 extends AppCompatActivity {
                 break;
             case R.id.buttonNo:
                 notComplete.dismiss();
-
+                break;
         }
 
         //button back end
